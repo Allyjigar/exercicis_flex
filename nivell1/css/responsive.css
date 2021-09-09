@@ -1,0 +1,87 @@
+/*pantallas medianas, tablet*/
+
+@media screen and (max-width: 769px){
+    .caja1, .caja2, .caja3{
+        height: auto;
+    }
+    .caja2{
+        background-color: #f3f020;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .b1{
+        width: 95%;
+        margin: 1.25rem;
+    }
+    .b2{
+        width: 95%;
+        margin: 0 1.25rem 1.25rem 1.25rem;
+        height: auto;
+    }
+    .b11{
+        margin: 1.25rem;
+    }
+    .b22{
+        margin: 1.25rem;
+    }
+    
+}
+
+/*pantalla movil*/
+
+@media screen and (max-width: 380px){
+    .caja1, .caja2, .caja3{
+        height: auto;
+    }
+    .a1, .b1, .a21, .a22, .a23{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin: 1.25rem;
+    }
+    .a11, .a12, .a13{
+        width: 85%;
+        height: 1.25rem;
+        margin: 0 1.25rem;
+    }
+    .a11{
+        margin: 1.25rem;
+    }
+    .a12{
+        margin: 0 1.25rem 1.25rem 1.25rem;
+    }
+    .a13{
+        margin: 0 1.25rem 1.25rem 1.25rem;
+    }
+    .b11{
+        margin: 1.25rem;
+    }
+    .a21, .a22, .a23{
+        width: 97%;
+        margin: 0;
+    }
+    .a211{
+        margin: 1.25rem 1.25rem 0 1.25rem;
+    }
+    .a221{
+        margin: 0 1.25rem;
+    }
+    .a231{
+        margin: 0 1.25rem 1.25rem;
+        width: 90%;
+    }
+    .b1{
+        width: 90%;
+    }
+    .b2{
+       background-color: #F48807; 
+       width: 90%;
+    }
+    .b21, .b22{
+        background-color: #F9B564;
+        width: 90%;
+    }
+
+
+}
