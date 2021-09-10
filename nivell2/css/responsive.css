@@ -1,0 +1,57 @@
+/*pantallas medianas, tablet*/
+
+@media screen and (max-width: 769px){
+    header{
+        width: auto;
+    }
+    .container_cabecera{
+        flex-direction: column;
+        align-items: center;
+    }
+    .container_logo{
+        justify-content: center;
+        flex-grow: 1;
+    }
+    nav{
+        flex-grow: 1;
+    }
+    .contenido_articulo{
+        text-align: justify;
+        width: 90vw;
+        align-items: center;
+    }
+    .section1{
+        flex-direction: column;
+        height: auto;
+    }
+    .container_img1{
+        width: 10vw;
+        height: auto;
+    }
+    .container_img2{
+        width: 100vw;
+        height: auto;
+    }
+    h1{
+        font-size: 25px;
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width: 380px){
+    .container_h1{
+        display: none;
+    }
+    .container_logo{
+        justify-content: center;
+    }
+    .container_social{
+        flex-direction: row;
+    }
+    ul{
+        flex-direction: column;
+        justify-content: left;
+    }
+}
+    

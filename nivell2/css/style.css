@@ -1,0 +1,170 @@
+/* reset*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+}
+
+/*header*/
+header{
+    background-image: url("../images/fons.jpg");
+    background-position: center center;
+	background-size: cover;
+	height: auto;
+    margin-bottom: 1.25rem;
+}
+.container_logo{
+    width: 1.25rem;
+    height: auto;
+}
+.logo{
+    width: 6.25rem;
+    height: auto;
+    margin: 3.75rem 3.75rem 2rem 3.75rem;
+}
+nav{
+    color: #5F5E5E;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ul{
+    list-style: none;
+    margin: 3.12rem;
+}
+li{
+    padding: 0 10px;
+}
+.container_social i{
+    padding: 1rem;
+}
+.container_social{
+    color: #5F5e5e
+}
+.container_h1{
+    width: 95%;
+    background-color: #BFBDBB;
+    opacity: 0.4;
+    height: 12.5rem;
+}
+h1{
+    font-size: 40px;
+    color: #F5075A;
+    font-family: 'Besley', serif;
+    margin-top: 6.87rem;
+}
+/*section 1*/
+section{
+    height: 40rem;
+    margin-bottom: 1.25rem;
+}
+.container_img1{
+    width: 50vw;
+    height: auto;
+} */
+.container_img2{
+    width: 50vw;
+    height: auto;
+}
+
+/*section 2*/
+.container_img3{
+    background-image: url("../images/beauty.jpg");
+    background-position: center center;
+	background-size: cover;
+    width: 100vw;
+    height: 40rem;
+    align-items: flex-end;
+}
+.data{
+    color: #bfbdbb;
+    font-weight: bold;
+    font-size: large;
+}
+h3{
+    background-color: #f5075a;
+    color: #bfbdbb;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0 20px;
+}
+.article{
+    background-color: #BFBDBB;
+}
+.contenido_articulo{
+    padding: 20px;
+}
+a:link{
+    font-weight: bold;
+    color: #5f5e5e;
+}
+/*margins*/
+.mg1{
+    margin: 20px;
+}
+
+/*FLEX*/
+/*direction*/
+.flex{
+    display: flex;
+}
+.flexColumn{
+    display: flex;
+    flex-direction: column;
+}
+/*justify*/
+.hCenter{
+    justify-content: center;
+}
+.vCenter{
+    justify-content: center;
+}
+.around{
+    justify-content: space-around;
+}
+.between{
+    justify-content: space-between;
+}
+.start{
+    justify-content: start;
+}
+/*grow*/
+.grow1{
+    flex-grow: 1;
+}
+.grow2{
+    flex-grow: 2;
+}
+.grow3{
+    flex-grow: 3;
+}
+
+/*hover*/
+.container_nav:hover {
+	transform: scale(1.5);
+    cursor: pointer;
+    color: #F5075A;    
+}
+.facebook:hover, .twitter:hover{
+    color: #F5075A;
+    cursor: pointer;
+}
+.logo:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+img:hover{
+    cursor: pointer;
+}
+a:hover{
+    font-size: 20px;
+}
+
